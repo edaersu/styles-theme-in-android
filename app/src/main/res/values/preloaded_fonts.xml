@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <!--theme 1 font-->
+        <item>@font/space_mono</item>
+
+        <!--theme 2 font-->
+        <item>@font/knewave</item>
+
+        <!--theme 3 font-->
+        <item>@font/tinos</item>
+    </array>
+</resources>

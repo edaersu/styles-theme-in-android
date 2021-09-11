@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--button color-->
+    <color name="material_button_yellow">#fdd835</color>
+    <color name="material_button_green">#66bb6a</color>
+    <color name="material_button_pink">#ec407a</color>
+    <color name="material_button_orange">#fb8c00</color>
+
+    <!--theme 1 color-->
+    <color name="material_yellow_bg">#fff9c4</color>
+    <color name="material_yellow_text">#c17900</color>
+
+    <!--theme 2 color-->
+    <color name="material_green_bg">#c8e6c9</color>
+    <color name="material_green_text">#338a3e</color>
+
+    <!--theme 3 color-->
+    <color name="material_pink_bg">#ffcdd2</color>
+    <color name="material_pink_text">#ba2d65</color>
+
+    <!--theme 4 color-->
+    <color name="material_orange_bg">#ffe0b2</color>
+    <color name="material_orange_text">#bf360c</color>
+
+</resources>

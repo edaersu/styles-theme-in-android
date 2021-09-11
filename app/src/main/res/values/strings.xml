@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Style - Theme</string>
+    <!--pokemon name-->
+    <string name="pikachu">Pikachu</string>
+    <string name="bulbasaur">Bulbasaur</string>
+    <string name="jigglypuff">Jigglypuff</string>
+    <string name="charmander">Charmander</string>
+    <!--pokemon description-->
+    <string name="pikachu_desc">Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it\'s evidence that this Pokémon mistook the intensity of its charge.</string>
+    <string name="bulbasaur_desc">Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun\'s rays, the seed grows progressively larger.</string>
+    <string name="jigglypuff_desc">Jigglypuff\'s vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy.</string>
+    <string name="charmander_desc">The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.</string>
+
+
+</resources>

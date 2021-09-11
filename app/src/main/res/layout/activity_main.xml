@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp"
+    android:paddingHorizontal="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="?attr/my_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pokemon_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="?attr/str_pokemon_name"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/pokemon_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="?attr/str_pokemon_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokemon_name" />
+    <Button
+        android:id="@+id/button_pikachu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pikachu"
+        android:textColor="@color/white"
+        android:onClick="btnPikachu"
+        android:background="@color/material_button_yellow"
+        app:layout_constraintEnd_toStartOf="@+id/button_bulbasaur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/button_bulbasaur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bulbasaur"
+        android:textColor="@color/white"
+        android:onClick="btnBulbasaur"
+        android:background="@color/material_button_green"
+        app:layout_constraintEnd_toStartOf="@+id/button_jigglypuff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_pikachu" />
+    <Button
+        android:id="@+id/button_jigglypuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jigglypuff"
+        android:textColor="@color/white"
+        android:onClick="btnJigglypuff"
+        android:background="@color/material_button_pink"
+        app:layout_constraintEnd_toStartOf="@+id/button_charmander"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_bulbasaur" />
+    <Button
+        android:id="@+id/button_charmander"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charmander"
+        android:textColor="@color/white"
+        android:onClick="btnCharmander"
+        android:background="@color/material_button_orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_jigglypuff" />
+</androidx.constraintlayout.widget.ConstraintLayout>

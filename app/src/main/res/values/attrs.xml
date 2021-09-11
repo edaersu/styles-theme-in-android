@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="str_pokemon_name" format="string"/>
+    <attr name="str_pokemon_info" format="string"/>
+    <attr name="my_image" format="reference"/>
+    <attr name="text_size" format="dimension"/>
+</resources>

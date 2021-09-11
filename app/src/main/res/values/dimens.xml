@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- theme 1 text size -->
+    <dimen name="text_size1">20sp</dimen>
+    <!-- theme 2 text size -->
+    <dimen name="text_size2">23sp</dimen>
+    <!-- theme 3 text size -->
+    <dimen name="text_size3">26sp</dimen>
+    <!-- theme 4 text size -->
+    <dimen name="text_size4">29sp</dimen>
+</resources>

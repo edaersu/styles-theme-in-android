@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="pikachu" parent="Theme.AppCompat.Light">
+        <item name="text_size">@dimen/text_size1</item>
+        <item name="android:background">@color/material_yellow_bg</item>
+        <item name="my_image">@drawable/pikachu</item>
+        <item name="android:textViewStyle">@style/textStyleforTheme1</item>
+        <item name="str_pokemon_name">@string/pikachu</item>
+        <item name="str_pokemon_info">@string/pikachu_desc</item>
+    </style>
+
+    <style name="bulbasaur" parent="pikachu">
+        <item name="text_size">@dimen/text_size2</item>
+        <item name="android:background">@color/material_green_bg</item>
+        <item name="my_image">@drawable/bulbasaur</item>
+        <item name="android:textViewStyle">@style/textStyleforTheme2</item>
+        <item name="str_pokemon_name">@string/bulbasaur</item>
+        <item name="str_pokemon_info">@string/bulbasaur_desc</item>
+    </style>
+    <style name="jigglypuff" parent="bulbasaur">
+        <item name="text_size">@dimen/text_size3</item>
+        <item name="android:background">@color/material_pink_bg</item>
+        <item name="my_image">@drawable/jigglypuff</item>
+        <item name="android:textViewStyle">@style/textStyleforTheme3</item>
+        <item name="str_pokemon_name">@string/jigglypuff</item>
+        <item name="str_pokemon_info">@string/jigglypuff_desc</item>
+    </style>
+
+    <style name="charmander" parent="jigglypuff" >
+        <item name="text_size">@dimen/text_size4</item>
+        <item name="my_image">@drawable/charmander</item>
+        <item name="android:textViewStyle">@style/textStyleforTheme4</item>
+        <item name="str_pokemon_name">@string/charmander</item>
+        <item name="str_pokemon_info">@string/charmander_desc</item>
+    </style>
+</resources>

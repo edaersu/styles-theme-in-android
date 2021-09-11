@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="textStyleforTheme1" parent="TextAppearance.AppCompat">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/material_yellow_text</item>
+        <item name="fontFamily">@font/space_mono</item>
+        <item name="android:textSize">@dimen/text_size1</item>
+    </style>
+    <style name="textStyleforTheme2" parent="textStyleforTheme1">
+        <item name="android:textColor">@color/material_green_text</item>
+        <item name="fontFamily">@font/knewave</item>
+        <item name="android:textSize">@dimen/text_size2</item>
+    </style>
+    <style name="textStyleforTheme3" parent="textStyleforTheme2">
+        <item name="android:textColor">@color/material_pink_text</item>
+        <item name="fontFamily">@font/tinos</item>
+        <item name="android:textSize">@dimen/text_size3</item>
+    </style>
+    <style name="textStyleforTheme4" parent="textStyleforTheme3">
+        <item name="android:textColor">@color/material_orange_text</item>
+        <item name="android:textSize">@dimen/text_size4</item>
+    </style>
+</resources>
